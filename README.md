@@ -56,3 +56,14 @@ A tabela a ser criada deve conter os seguintes campos:
 - **Apresentação do projeto (explique como você criou a tabela e como fez as consultas).** 📝
 
 ## Estrutura
+Projeto-Fabrica-3
+├── README.md               # Documentação do projeto
+├── banco_de_dados/
+│   ├── escola_fp.db        # Arquivo do banco de dados SQLite
+│   └── scripts/
+│       ├── create_table.sql # Script para criar a tabela
+│       └── insert_data.sql  # Script para inserir dados de exemplo
+└── consultas/
+    ├── consulta_ativos.sql  # Consulta para alunos ativos
+    └── consulta_curso.sql   # Consulta para alunos por curso
+
